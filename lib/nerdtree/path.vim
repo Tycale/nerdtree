@@ -57,7 +57,7 @@ function! s:Path.cacheDisplayString() abort
     endif
 
     if self.isSymLink
-        let self.cachedDisplayString .=  ' -> ' . self.symLinkDest
+"        let self.cachedDisplayString .=  ' -> ' . self.symLinkDest
     endif
 
     if self.isReadOnly
